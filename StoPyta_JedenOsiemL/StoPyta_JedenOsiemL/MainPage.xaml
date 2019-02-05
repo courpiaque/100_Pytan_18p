@@ -4,11 +4,9 @@
              xmlns:local="clr-namespace:StoPyta_JedenOsiemL"
              x:Class="StoPyta_JedenOsiemL.MainPage">
 
-    <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+    <StackLayout HorizontalOptions="Center" VerticalOptions="CenterAndExpand" >
+        <Label Text="100 pytań żeby się poznać" />
+        <Button Text="Start" Clicked="Button_Clicked"/>
     </StackLayout>
 
 </ContentPage>
