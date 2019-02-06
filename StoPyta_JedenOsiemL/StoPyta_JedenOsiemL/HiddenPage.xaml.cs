@@ -13,16 +13,20 @@ namespace StoPyta_JedenOsiemL
 	public partial class HiddenPage : ContentPage
 	{
         private Questions questions;
+        private int x = 1;
 
         public HiddenPage ()
 		{
 			InitializeComponent ();
             questions = new Questions();
-		}
+        }
 
         private void Button_Clicked(object sender, EventArgs e)
         {
             label.Text = questions.GetRandomQuestion();
+            if (x > 100) x = 1;
+            counter.Text = x + "/100";
+            x++;
         }
     }
 }

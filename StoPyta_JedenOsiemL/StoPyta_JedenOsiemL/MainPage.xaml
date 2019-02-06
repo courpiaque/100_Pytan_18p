@@ -3,10 +3,16 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:StoPyta_JedenOsiemL"
              x:Class="StoPyta_JedenOsiemL.MainPage">
-
-    <StackLayout HorizontalOptions="Center" VerticalOptions="CenterAndExpand" >
-        <Label Text="100 pytań żeby się poznać" />
-        <Button Text="Start" Clicked="Button_Clicked"/>
-    </StackLayout>
+    <AbsoluteLayout>
+        <Button 
+            AbsoluteLayout.LayoutBounds="0.5, 0.75, 80, 80"
+            AbsoluteLayout.LayoutFlags="PositionProportional"
+            HorizontalOptions="Center"
+            BorderRadius="80"
+            FontSize="Medium"
+            Text="Start"
+            Clicked="Button_Clicked"/>
+    </AbsoluteLayout>
+    
 
 </ContentPage>
