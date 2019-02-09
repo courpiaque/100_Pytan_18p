@@ -19,12 +19,4 @@ namespace StoPyta_JedenOsiemL
             App.Current.MainPage = new MenuPage();
         }
     }
-
-    public class AdMobView : ContentView
-    {
-        public AdMobView()
-        {
-
-        }
-    }
 }

@@ -41,4 +41,12 @@ namespace StoPyta_JedenOsiemL
             clicked = true;
         }
     }
+
+    public class AdMobView : ContentView
+    {
+        public AdMobView()
+        {
+
+        }
+    }
 }
