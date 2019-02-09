@@ -22,4 +22,12 @@ namespace StoPyta_JedenOsiemL
             Navigation.PushModalAsync(page);
         }
     }
+
+    public class AdMobView : ContentView
+    {
+        public AdMobView()
+        {
+
+        }
+    }
 }
