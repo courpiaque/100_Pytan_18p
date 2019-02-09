@@ -10,22 +10,22 @@ using Xamarin.Forms.Xaml;
 namespace StoPyta_JedenOsiemL
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class HiddenPage : ContentPage
+	public partial class HardPage : ContentPage
 	{
-        private Questions questions;
+        private HardQuestions questions;
         private int x = 1;
 
-        public HiddenPage ()
+        public HardPage ()
 		{
 			InitializeComponent ();
-            questions = new Questions();
+            questions = new HardQuestions();
         }
 
         private void Button_Clicked(object sender, EventArgs e)
         {
             label.Text = questions.GetRandomQuestion();
-            if (x > 100) x = 1;
-            counter.Text = x + "/100";
+            if (x > 75) x = 1;
+            counter.Text = x + "/75";
             x++;
         }
     }

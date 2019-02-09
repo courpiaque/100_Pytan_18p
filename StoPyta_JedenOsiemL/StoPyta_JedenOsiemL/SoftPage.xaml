@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StoPyta_JedenOsiemL.SoftPage"
+             BackgroundImage="background.jpg">
+    <AbsoluteLayout>
+        <StackLayout AbsoluteLayout.LayoutBounds="0.5, 0.6, 0.8, 200"
+                     AbsoluteLayout.LayoutFlags="PositionProportional, WidthProportional">
+            <Label
+                HorizontalTextAlignment="Center"
+                x:Name="counter"
+                TextColor="White"
+                Text=""/>
+            <Frame CornerRadius="10"
+                   Padding="0">
+                <StackLayout BackgroundColor="LightGray" 
+                             HeightRequest="40"
+                             Padding="15">
+                    <Label
+                        HorizontalTextAlignment="Center"
+                        VerticalOptions="CenterAndExpand"
+                        x:Name="label"
+                        Text="Zaczynamy..."/>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+
+        <Button 
+            AbsoluteLayout.LayoutBounds="0.5, 0.75, 80, 80"
+            AbsoluteLayout.LayoutFlags="PositionProportional"
+            HorizontalOptions="Center"
+            BorderRadius="80"
+            FontSize="40"
+            Text=">"
+            Clicked="Button_Clicked"/>
+    </AbsoluteLayout>
+</ContentPage>

@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:local="clr-namespace:StoPyta_JedenOsiemL"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="StoPyta_JedenOsiemL.HiddenPage"
+             x:Class="StoPyta_JedenOsiemL.HardPage"
              BackgroundImage="background.jpg">
     <AbsoluteLayout>
         <StackLayout AbsoluteLayout.LayoutBounds="0.5, 0.6, 0.8, 200"
@@ -25,7 +25,7 @@
                 </StackLayout>
             </Frame>
         </StackLayout>
-        
+
         <Button 
             AbsoluteLayout.LayoutBounds="0.5, 0.75, 80, 80"
             AbsoluteLayout.LayoutFlags="PositionProportional"
@@ -38,5 +38,6 @@
         <local:AdMobView 
             AbsoluteLayout.LayoutBounds="0.5, 1, 468, 60"
             AbsoluteLayout.LayoutFlags="PositionProportional"/>
+        
     </AbsoluteLayout>
 </ContentPage>

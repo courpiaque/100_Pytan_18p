@@ -9,17 +9,14 @@ namespace StoPyta_JedenOsiemL
 {
     public partial class MainPage : ContentPage
     {
-        private Page page;
-
         public MainPage()
         {
             InitializeComponent();
-            page = new HiddenPage();
         }
 
         private void Button_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushModalAsync(page);
+            App.Current.MainPage = new MenuPage();
         }
     }
 

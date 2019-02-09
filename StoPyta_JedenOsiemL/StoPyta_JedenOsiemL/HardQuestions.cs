@@ -4,43 +4,18 @@ using System.Text;
 
 namespace StoPyta_JedenOsiemL
 {
-    public class Questions
+    public class HardQuestions
     {
-        private const int x = 100;
+        private const int x = 75;
         private List<String> __questMaster;
         private LinkedList<String> __questShake;
         private int Randomness = 1;
         private Random randGen = new Random();
 
-        public Questions()
+        public HardQuestions()
         {
             __questMaster = new List<String>(new String[x]
             {
-                "Wymień trzy seksowane części ciała drugiej osoby.",
-                "Wymień pięć cech charakteru partnera, które Ci się w nim podobają.",
-                "Wymień pięć rzeczy, które macie wspólne.",
-                "Co sądzisz o wyrażaniu uczuć w miejscach publicznych?",
-                "Na co szczególnie zwracasz uwagę u płci przeciwnej?",
-                "Co myślisz o flirtowaniu w miejscu pracy?",
-                "Co uważasz o randkowaniu przez internet?",
-                "Co denerwuje Cię w płci przeciwnej podczas flirtu?",
-                "Czy uważasz siebie za osobę atrakcyjną?",
-                "Blondynki, czy brunetki? Dlaczego?",
-                "Co jest ważniejsze? Seksapil, czy poczucie humoru?",
-                "Opisz wymarzoną randkę.",
-                "Co lepsze? Długotrwały związek, czy krótka przygoda?",
-                "Czy masz na ciele jakieś znaki szczególne?",
-                "Jaka potrawa jest największym afrodyzjakiem?",
-                "Czego zazdrościsz płci przeciwnej?",
-                "Czy taniec buduje napięcie?",
-                "Co pomyślałeś, kiedy pierwszy raz zobaczyłeś swojego partnera?",
-                "Przez co czujesz się seksowny?",
-                "Czy wierzysz w idealny związek? Czym jest dla Ciebie miłość?",
-                "Na początku relacji lepiej budować napięcie, czy być bezpośrednim?",
-                "Czy to ty robisz pierwszy krok?",
-                "Co sprawia, że czujesz się kochany?",
-                "Naturalne piękno, czy mocny makijaż?",
-                "Czy zwracasz uwagę na to jak gotuje Twój partner?",
                 "Czy masz jakiś fetysz? Jeżeli tak, to jaki?",
                 "Wymień jedną seksualną fantazję, której nie zrealizowałeś.",
                 "Czego się krępujesz w sferze seksu?",
@@ -93,9 +68,9 @@ namespace StoPyta_JedenOsiemL
                 "Lubisz podduszanie i ciągnięcie za włosy, czy jest to brak szacunku?",
                 "Co sądzisz o kobiecej dominacji?",
                 "Jakie subtelne gesty podniecają Cię najbardziej?",
-                "Czy są dni, w których masz większą ochotę niż zwykle? Od czego to zależy?",
+                 "Czy są dni, w których masz większą ochotę niż zwykle? Od czego to zależy?",
                 "Gdybyś miał na zawsze zrezygnować z jednej seksualnej pozycji to z jakiej?",
-                "Ile czasu byłbyś w stanie wytrzymać bez seksu?",
+                 "Ile czasu byłbyś w stanie wytrzymać bez seksu?",
                 "Jakiego seksualnego zachowania osób Twojej płci szczególnie nie tolerujesz?",
                 "Jak często myślisz o seksie?",
                 "Jak wyglądałby Twój wymarzony pokój zabaw?",
