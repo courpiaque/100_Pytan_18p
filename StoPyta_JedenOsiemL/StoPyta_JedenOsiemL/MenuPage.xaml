@@ -4,7 +4,7 @@
              x:Class="StoPyta_JedenOsiemL.MenuPage"
              BackgroundImage="background.jpg">
     <AbsoluteLayout>
-        <StackLayout AbsoluteLayout.LayoutBounds="0.5, 0.5, 200, 100" AbsoluteLayout.LayoutFlags="PositionProportional" 
+        <StackLayout AbsoluteLayout.LayoutBounds="0.5, 0.5, 0.8, 100" AbsoluteLayout.LayoutFlags="PositionProportional, WidthProportional" 
                      VerticalOptions="CenterAndExpand">
             <Button 
                 HorizontalOptions="FillAndExpand"
@@ -14,7 +14,7 @@
             <Button
                 HorizontalOptions="FillAndExpand"
                 FontSize="Medium"
-                Text="Ostra zabawa"
+                Text="Seks i erotyka"
                 Clicked="Hard_Button_Clicked"/>
         </StackLayout>
     </AbsoluteLayout>
