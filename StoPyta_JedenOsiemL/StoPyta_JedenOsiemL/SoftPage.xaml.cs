@@ -24,6 +24,7 @@ namespace StoPyta_JedenOsiemL
         private void Button_Clicked(object sender, EventArgs e)
         {
             label.Text = questions.GetRandomQuestion();
+            if (x % 10 == 0) DependencyService.Get<IAdInterstitial>().ShowAd();
             if (x > 25) x = 1;
             counter.Text = x + "/25";
             x++;
