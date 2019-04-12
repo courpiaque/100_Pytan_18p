@@ -9,6 +9,7 @@
                      AbsoluteLayout.LayoutFlags="PositionProportional, WidthProportional">
             <Label
                 HorizontalTextAlignment="Center"
+                HorizontalOptions="CenterAndExpand"
                 x:Name="counter"
                 TextColor="White"
                 Text=""/>
