@@ -30,7 +30,7 @@ namespace StoPyta_JedenOsiemL
             label.Text = questions.GetRandomQuestion();
             if (x % 10 == 0) DependencyService.Get<IAdInterstitial>().ShowAd();
             if (x > 75) x = 1;
-            if (x == 75 && !d.Exists)
+            if (x == 30 && !d.Exists)
             {
                 Directory.CreateDirectory(dir);
                 d = new DirectoryInfo(dir);
